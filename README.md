@@ -2,7 +2,7 @@ Repository for standalone ModelJoin operator described in paper (LINK). ModelJoi
 
 # Build instructions
 
-Set `USECUDA` to `ON` or `OFF` in CMakeLists.txt and set `CMAKE_CUDA_ARCHITECTURES` according to your GPU if needed.
+Set `USECUDA` to `ON` or `OFF` in CMakeLists.txt and set `CMAKE_CUDA_ARCHITECTURES` according to your GPU if needed. Activating CUDA requires CUDA and cuBLAS to be installed.
 
 ```
 BUILDMODE=<DEBUG/RELEASE> . build.sh
